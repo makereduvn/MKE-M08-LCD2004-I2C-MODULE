@@ -87,4 +87,3 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_2.png)
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_3.png)
-
