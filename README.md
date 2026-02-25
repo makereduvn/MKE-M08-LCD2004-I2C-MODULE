@@ -3,7 +3,7 @@
 ## Giới thiệu sản phẩm
 MKE-M08 LCD2004 I2C Module là mạch hiển thị ký tự sử dụng màn hình LCD2004, có khả năng hiển thị 4 dòng, mỗi dòng 20 ký tự, phù hợp để hiển thị các thông tin cơ bản như trạng thái hệ thống, giá trị cảm biến, menu cài đặt hoặc thông báo người dùng. Mạch được tích hợp sẵn bộ chuyển đổi giao tiếp I2C, giúp việc kết nối với mạch điều khiển trở nên đơn giản và gọn gàng, chỉ cần 2 chân giao tiếp I2C là SDA (Data) và SCL (Clock) giúp tiết kiệm đáng kể số lượng chân I/O, rất thích hợp cho các hệ thống sử dụng nhiều cảm biến hoặc thiết bị ngoại vi.
 
-Mạch hiển thị MKE-M08 LCD2004 I2C Module hỗ trợ điện áp điều khiển 3.3V và 5VDC, cho phép kết nối trực tiếp và an toàn với các bo mạch điều khiển phổ biến như Arduino, Raspberry Pi, Jetson Nano, Micro:bit và nhiều nền tảng khác. Sản phẩm đi kèm cáp kết nối 4P XH2.54 – Dupont, đảm bảo kết nối chắc chắn, ổn định và thuận tiện trong quá trình lắp đặt và sử dụng.
+Mạch hiển thị MKE-M08 LCD2004 I2C Module hỗ trợ điện áp giao tiếp 3.3V và 5VDC, cho phép kết nối trực tiếp và an toàn với các bo mạch điều khiển phổ biến như Arduino, Raspberry Pi, Jetson Nano, Micro:bit và nhiều nền tảng khác. Sản phẩm đi kèm cáp kết nối 4P XH2.54 – Dupont, đảm bảo kết nối chắc chắn, ổn định và thuận tiện trong quá trình lắp đặt và sử dụng.
 
 ## Thông số kỹ thuật
 - Điện áp hoạt động: 5VDC
@@ -87,4 +87,5 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_2.png)
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_3.png)
+
 
