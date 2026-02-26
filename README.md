@@ -33,11 +33,11 @@ Mạch hiển thị MKE-M08 LCD2004 I2C Module hỗ trợ điện áp giao tiế
   </tr></thead>
 <tbody>
   <tr>
-    <td>-</td>
+    <td>GND</td>
     <td>Chân cấp nguồn âm 0VDC</td>
   </tr>
   <tr>
-    <td>+</td>
+    <td>5V</td>
     <td>Chân cấp nguồn dương 5VDC</td>
   </tr>
   <tr>
@@ -87,6 +87,7 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_2.png)
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_3.png)
+
 
 
 
