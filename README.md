@@ -61,7 +61,7 @@ Mạch hiển thị MKE-M08 LCD2004 I2C Module hỗ trợ điện áp giao tiế
 
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
-- Cấp nguồn 5VDC cho mạch qua hai chân - và +.
+- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
 - Kết nối chân SCL của Module với chân I2C Clock của mạch điều khiển.
 - Kết nối chân SDA của Module với chân I2C Data của mạch điều khiển.
 
@@ -87,6 +87,7 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_2.png)
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_3.png)
+
 
 
 
