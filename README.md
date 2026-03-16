@@ -10,6 +10,7 @@ Mạch hiển thị MKE-M08 LCD2004 I2C Module hỗ trợ điện áp giao tiế
 - Điện áp giao tiếp: TTL 3.3VDC/5VDC
 - Chuẩn giao tiếp: Digital I2C
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
+- Địa chỉ I2C mặc định: **0x27**
 - Loại LCD: LCD2004 (4 dòng, mỗi dòng 20 ký tự)
 - Tích hợp sẵn bộ chuyển đổi và trở kéo cho giao tiếp I2C.
 - Tích hợp biến trở chỉnh độ tương phản.
@@ -58,6 +59,50 @@ Mạch hiển thị MKE-M08 LCD2004 I2C Module hỗ trợ điện áp giao tiế
   </tr>
 </tbody>
 </table>
+
+## Hướng dẫn cấu hình
+
+### Thay đổi địa chỉ I2C (I2C Address)
+
+Sử dụng khi bạn cần kết nối nhiều thiết bị I2C trên cùng một bus và muốn tránh trùng lặp địa chỉ.
+
+1.  **Vào chế độ:** Cấp nguồn cho module, nhấn và giữ nút **Setup** cho đến khi màn hình hiển thị chế độ thiết lập địa chỉ.
+2.  **Thay đổi:** Nhấn thả (**Click**) nút Setup để thay đổi địa chỉ. Giá trị sẽ thay đổi tuần hoàn: 
+    * `0x20` → `0x21` → `0x22` → `0x23` → `0x24` → `0x25` → `0x26` → `0x27` (quay lại `0x20`).
+3.  **Lưu cài đặt:** Nhấn và giữ nút **Setup** cho đến khi màn hình hiện thông báo: **"I2C ADDR SAVED!"**.
+4.  **Hoàn tất:** Ngắt điện và cấp nguồn lại để module nhận địa chỉ mới.
+
+### Tùy chỉnh độ sáng đèn nền (Brightness)
+
+Module hỗ trợ 5 mức độ sáng để phù hợp với các điều kiện môi trường khác nhau.
+
+1.  **Vào chế độ:** Cấp nguồn, nhấn giữ nút **Setup** để vào chế độ set địa chỉ trước.
+2.  **Chuyển mode:** Nhấn nhanh 2 lần liên tiếp (**Double Click**) vào nút Setup để chuyển sang chế độ **"Setup Brightness"**.
+3.  **Thay đổi:** Nhấn thả (**Click**) để thay đổi độ sáng (có 5 mức từ 1 đến 5).
+4.  **Lưu cài đặt:** Nhấn và giữ nút **Setup** cho đến khi màn hình hiển thị: **"Shut down PWR Pls!"**.
+5.  **Hoàn tất:** Tắt nguồn và khởi động lại.
+
+### Khôi phục cài đặt gốc (Factory Reset)
+
+Nếu bạn muốn đưa mọi thiết lập về trạng thái mặc định của nhà sản xuất.
+
+* **Thao tác:** Nhấn giữ nút **Setup** đồng thời trong lúc vừa cấp nguồn cho module.
+* **Trình tự hiển thị:** Màn hình sẽ hiện lần lượt: `I2C Address` -> **`FACTORY RESET`**.
+* **Thông số sau Reset:**
+  - Địa chỉ I2C mặc định: `0x27`
+  - Độ sáng mặc định: `5/5` (mức cao nhất)
+
+### Tóm tắt thao tác nút Setup
+
+| Thao tác | Trạng thái | Chức năng |
+| :--- | :--- | :--- |
+| **Nhấn giữ** | Đang hoạt động | Truy cập Menu Setup |
+| **Nhấn giữ** | Khi cấp nguồn | **Factory Reset** |
+| **Click (Nhấn thả)** | Trong Menu | Thay đổi giá trị (Địa chỉ/Độ sáng) |
+| **Double Click** | Trong Menu | Chuyển đổi giữa Set I2C và Set Brightness |
+| **Nhấn giữ** | Trong Menu | **Lưu cài đặt** và thoát |
+
+> **Lưu ý:** Luôn ngắt nguồn và cấp lại (Re-power) sau khi lưu cài đặt để các thay đổi có hiệu lực hoàn toàn.
 
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
