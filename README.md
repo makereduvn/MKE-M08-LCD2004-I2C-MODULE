@@ -112,7 +112,7 @@ Nếu bạn muốn đưa mọi thiết lập về trạng thái mặc định c�
 
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
-- Mở chương trình mẫu **"MKE_M08_LCD2004_I2C_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_M08_LCD2004_I2C**
+- Mở chương trình mẫu tại **File / Examples / MKE_ONE / Module / MKE_M08_LCD2004_I2C**
 - Cấu hình board mạch tương ứng là **Arduino Uno / ESP32**, chọn đúng cổng **COM Port** của mạch và nhấn **Upload** để nạp chương trình.
 - Cấp nguồn 5VDC cho mạch, kết nối chân SDA và SCL của Module với chân điều khiển được khai báo trong chương trình.
 - Xem kết quả mạch hoạt động theo chương trình đã nạp.
@@ -133,7 +133,5 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_2.png)
 ![MKE-08 LCD2004 I2C](/extras/MKE-M08_3.png)
 
-
-
-
-
+## Miễn trừ trách nhiệm:
+Sản phẩm này là bo mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người dùng.
